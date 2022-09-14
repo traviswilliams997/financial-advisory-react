@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './images/logo.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import './Navbar.css' 
 
 const Navbar = () => {
   return (
@@ -15,10 +16,16 @@ const Navbar = () => {
             <ul className='nav-menu'>
                 <li className='nav-item'>
                     <a href='/'>Home</a>
-                    <a href='/'>About</a>
-                    <a href='/'>Testimonials</a>
-                    <a href='/'>Demo</a>
                 </li>
+                <li className='nav-item'>
+                    <a href='/'>About</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Testimonials</a>
+                </li>
+                <li className='nav-item'>
+                    <a href='/'>Demo</a>
+                </li>   
             </ul>
         </nav>
     </div>
