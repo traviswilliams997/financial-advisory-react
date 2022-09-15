@@ -21,6 +21,10 @@
 
 }
 
+.header .nav-menu a {
+    color: #ffffff;
+}
+
 .header .navbar img {
     width: 250px;
     height: auto;
@@ -63,7 +67,7 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 90px;
         flex-direction: column;
         background-color: rgba(0,0,0,.9);
         width: 100%;
